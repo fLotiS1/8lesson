@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Slab", serif;
+}
+.container{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+header{
+    background-color: #ABA5A5;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 36px;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+.navbar button{
+    padding: 7px 45px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s ease-in-out;
+}
+.navbar button:hover{
+    background-color: #FF0000;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: #FF0000;
+}
+.card{
+    width: 30%;
+    height: 441px;
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(217, 217, 217, 1);
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+    justify-content: center;
+}
+.card:hover{
+    background-color: rgba(20, 0, 255, 1);
+    color: white;
+    border: 5px solid yellow;
+}
+.cardtext{
+    text-align: center;
+    width: 284px;
+    margin: 31px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.cardtext button{
+    width: 183px;
+    height: 36px;
+    border-radius: 20px;
+    border: 1px;
+    margin: 0 auto;
+    background-color: #00000066;
+}
+.cardtext button:hover{
+    background-color: #FF0000;
+    color: white;
+    border: 5px solid #00FF94;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 96px;
+    margin: 52px auto;
+}
+.pseudo button{
+    width: 794px;
+    height: 123px;
+    border-radius: 50px;
+    font-size: 48px;
+    color: #A24949;
+    background-color: #D9D9D9;
+    margin: 44px auto;
+    border: none;
+    transition: 0.5s ease-in-out;
+}
+.pseudo{
+    display: flex;
+    justify-content: center;
+}
+.pseudo button:hover{
+    background-color: #FF0000;
+    color: white;
+}
